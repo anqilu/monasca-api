@@ -35,12 +35,12 @@ To run Monasca in DevStack, do the following three steps.
     # default is to install the Python implementations of both the Monasca API and the Monasca Persister.
 
     # Uncomment one of the following two lines to choose Java or Python for the Monasca API.
-    MONASCA_API_IMPLEMENTATION_LANG=${MONASCA_API_IMPLEMENTATION_LANG:-java}
-    # MONASCA_API_IMPLEMENTATION_LANG=${MONASCA_API_IMPLEMENTATION_LANG:-python}
+    # MONASCA_API_IMPLEMENTATION_LANG=${MONASCA_API_IMPLEMENTATION_LANG:-java}
+    MONASCA_API_IMPLEMENTATION_LANG=${MONASCA_API_IMPLEMENTATION_LANG:-python}
 
     # Uncomment of the following two lines to choose Java or Python for the Monasca Pesister.
-    MONASCA_PERSISTER_IMPLEMENTATION_LANG=${MONASCA_PERSISTER_IMPLEMENTATION_LANG:-java}
-    # MONASCA_PERSISTER_IMPLEMENTATION_LANG=${MONASCA_PERSISTER_IMPLEMENTATION_LANG:-python}
+    # MONASCA_PERSISTER_IMPLEMENTATION_LANG=${MONASCA_PERSISTER_IMPLEMENTATION_LANG:-java}
+    MONASCA_PERSISTER_IMPLEMENTATION_LANG=${MONASCA_PERSISTER_IMPLEMENTATION_LANG:-python}
 
     # Uncomment one of the following two lines to choose either InfluxDB or Vertica.
     MONASCA_METRICS_DB=${MONASCA_METRICS_DB:-influxdb}
